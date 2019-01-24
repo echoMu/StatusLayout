@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.bakumon.ugank.module.webview.WebViewActivity">
+    <item
+        android:id="@+id/menu_status_loading"
+        android:title="@string/loading"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_status_empty"
+        android:title="@string/empty"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_status_error"
+        android:title="@string/error"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_status_success"
+        android:title="@string/success"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_status_customer"
+        android:title="@string/customer"
+        app:showAsAction="never" />
+</menu>
